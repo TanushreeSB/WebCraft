@@ -2,7 +2,7 @@
 
 1) Royal Realm Website
 
-    🤩Features
+🤩Features
 - Interactive Chatbot (ResortBot): A chatbot that answers frequently asked questions about the resort, such as room availability, amenities, check-in/check-out times, etc.
 - Responsive Design: The website is designed to work seamlessly on all devices, including desktops, tablets, and smartphones.
 - Room and Amenity Information: Detailed information about available rooms, amenities, and services offered by the resort.
