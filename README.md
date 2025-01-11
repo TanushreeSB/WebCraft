@@ -6,3 +6,5 @@
 - Room and Amenity Information: Detailed information about available rooms, amenities, and services offered by the resort.
 - User-Friendly Navigation: Easy-to-use interface for exploring different sections of the resort website.
 - Go-To-Top Button: A quick way to navigate to the top of the page.
+- This is creation of Lanading Page
+  Link: https://cool-puppy-795e5d.netlify.app/#about
