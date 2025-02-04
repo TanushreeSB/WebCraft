@@ -14,3 +14,7 @@
 - parseInt: parse is the user's input as an integer.
 - Maths.random() function returns a random number starting from 0(inclusive) to 1(exclusive)
 - Enjoy your game!
+
+## 3) Scorekeeper Game
+![image](https://github.com/user-attachments/assets/868fa8db-be0e-4a95-b408-ff168b23130e)  ![image](https://github.com/user-attachments/assets/3984a7d0-3672-49b4-be37-814e73f72e77)
+
