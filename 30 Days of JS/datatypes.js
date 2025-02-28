@@ -1,8 +1,8 @@
-"use strict"; // treat all JS code as newer version
+//"use strict"; // treat all JS code as newer version
 
-alert("hello")
+//alert("hello")
 
-alert(3+3) // error occurs in terminal
+//alert(3+3) // error occurs in terminal
 
 let name = "Tanushree"
 // number => 2 to power 53
