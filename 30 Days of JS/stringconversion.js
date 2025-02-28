@@ -30,7 +30,11 @@ let str3 = str1 + str2
 
 // console.log(true); true
 // console.log(+true); 1
-// console.log(+"");
+
+// console.log(+""); 
+// output:
+// 1
+// 0
 
 let num1, num2, num3
 
