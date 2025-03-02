@@ -16,23 +16,23 @@ console.log(gameName[0]);
 // console.log(gameName.toUpperCase());
 
 console.log(gameName.charAt());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+console.log(gameName.charAt(2)); // n
+console.log(gameName.indexOf('T')); // 0
 
 const newString = gameName.substring(0, 4)
-console.log(newString);
+console.log(newString); // Tanu
 
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
 
-const newStringOne = "   hitesh    "
+const newStringOne = "   Tanushree    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); // remove spaces from start,end 
 
-const url = "https://tanushree115.twiit.com"
+const url = "https://tanushree115%20borase.twiit.com"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-')) // https://tanushree115-borase.twiit.com
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) // false
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));  
