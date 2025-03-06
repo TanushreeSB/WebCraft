@@ -18,3 +18,16 @@
 ## 3) Scorekeeper Game
 ![image](https://github.com/user-attachments/assets/868fa8db-be0e-4a95-b408-ff168b23130e)  ![image](https://github.com/user-attachments/assets/3984a7d0-3672-49b4-be37-814e73f72e77)
 
+## 4) 30 Days of JS
+- Variables in JS
+- datypes
+- Conversions and operators
+- strings
+- numbers and math in JS
+- dates in JS
+- arrays
+- objects
+- slice,splice,shift
+- functions
+- scope
+- arrow
