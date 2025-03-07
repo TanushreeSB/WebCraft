@@ -20,7 +20,7 @@ function one(){
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
+    // console.log(website); // output: website is not defined (error)
 
      two()
 
@@ -32,7 +32,7 @@ if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
         const website = " youtube"
-        // console.log(username + website);
+        // console.log(username + website); here output only
     }
     // console.log(website);
 }
@@ -43,7 +43,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) // 6
 
 function addone(num){
     return num + 1
@@ -51,7 +51,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5) // error
 const addTwo = function(num){
     return num + 2
 }
