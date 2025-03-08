@@ -21,33 +21,33 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this); many values come on calling chai() function
 // }
 
 // chai()
 
 // const chai = function () {
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); // undefined
 // }
 
 const chai =  () => {
     let username = "hitesh"
-    console.log(this);
+    console.log(this); //  undefined, arrow functio
 }
 
 
-// chai()
+// chai() // function calling
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2 // 7
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"}) // { username = "hitesh" }
 
 
 console.log(addTwo(3, 4))
@@ -55,4 +55,4 @@ console.log(addTwo(3, 4))
 
 // const myArray = [2, 5, 3, 7, 8]
 
-// myArray.forEach()
+// myArray.forEach() 
