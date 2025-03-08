@@ -24,6 +24,8 @@
 -  Interactive UI
 -  Mobile-Friendly – Works seamlessly on all devices.
 -  link: https://luxury-lily-cd65ed.netlify.app/
+-  ![image](https://github.com/user-attachments/assets/156e327e-d7c1-42bd-ae3a-7ff207d2dec6)
+
   
 ## 5) 30 Days of JS
 - Variables in JS
