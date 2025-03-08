@@ -9,14 +9,17 @@
 - This is creation of Lanading Page
   Link: https://cool-puppy-795e5d.netlify.app/#about
 
+
 ## 2) Guessing Game:
 - prompt function displays a dialog box that asks for the user input.
 - parseInt: parse is the user's input as an integer.
 - Maths.random() function returns a random number starting from 0(inclusive) to 1(exclusive)
 - Enjoy your game!
 
+
 ## 3) Scorekeeper Game
 ![image](https://github.com/user-attachments/assets/868fa8db-be0e-4a95-b408-ff168b23130e)  ![image](https://github.com/user-attachments/assets/3984a7d0-3672-49b4-be37-814e73f72e77)
+
 
 ## 4) Women's day tribute Generator
 -  Personalized Tribute – Users can enter details about an inspiring woman and generate a heartfelt tribute.
@@ -40,5 +43,26 @@
 - functions
 - scope
 - arrow
-
-  
+- this
+- IIFE
+- call stack
+- control flow
+- for loop: break and continue
+- while and do while
+- higher oder array loops
+- Filter map and reduce
+- DOM
+- DOM selectors
+- creation of new element in DOM
+- edit and remove elements
+- events in JS
+- Async
+- API nad V8 engine
+- promise in JS
+- fetch in JS
+- OOPS in JS
+- call and this in JS
+- Bind in JS
+- Objects in JS
+- Getter Setter and Stack Overflow
+- Lexical scoping and Closure 
