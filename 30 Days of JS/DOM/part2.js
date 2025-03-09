@@ -18,22 +18,26 @@
 <script>
     const parent = document.querySelector('.parent')
     // console.log(parent);
-    // console.log(parent.children);
+    // console.log(parent.children); // output: we get html collection
     // console.log(parent.children[1].innerHTML);
 
     // for (let i = 0; i < parent.children.length; i++) {
     //      console.log(parent.children[i].innerHTML);
-        
+        // Monday
+        // Tuesday
+        // Wednesday
+        // THursday
     // }
+
     parent.children[1].style.color = "orange"
     // console.log(parent.firstElementChild);
     // console.log(parent.lastElementChild);
 
     const dayOne = document.querySelector('.day')
-    // console.log(dayOne);
-    // console.log(dayOne.parentElement);
-    // console.log(dayOne.nextElementSibling);
+    // console.log(dayOne); // Monday
+    // console.log(dayOne.parentElement); 
+    // console.log(dayOne.nextElementSibling); // Tuesday
 
-    console.log("NODES: ", parent.childNodes);
+    console.log("NODES: ", parent.childNodes); // NodeList(9) [text, div.day,text,div,day,text,div.day,text,div.day, text]
 </script>
 </html>
