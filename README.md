@@ -49,7 +49,7 @@
 - control flow
 - for loop: break and continue
 - while and do while
-- higher oder array loops
+- higher oder array loops: for of, for in, for Each
 - Filter map and reduce
 - DOM
 - DOM selectors
