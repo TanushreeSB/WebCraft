@@ -1,0 +1,53 @@
+The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. 
+Usually it refers to JavaScript, even though modeling HTML, SVG, or XML documents as objects are not part of the core JavaScript language.
+
+- The DOM represents a document with a logical tree. 
+- Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. 
+- With them, you can change the document's structure, style, or content.
+
+The DOM is a W3C (World Wide Web Consortium) standard.
+
+The DOM defines a standard for accessing documents:
+
+"The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+
+The W3C DOM standard is separated into 3 different parts:
+
+Core DOM - standard model for all document types
+XML DOM - standard model for XML documents
+HTML DOM - standard model for HTML documents
+  
+  HTML DOM
+A document containing HTML is described using the Document interface, which is extended by the HTML specification to include various HTML-specific features.
+In particular, the Element interface is enhanced to become HTMLElement and various subclasses, each representing one of (or a family of closely related) elements.
+he HTML DOM is a standard object model and programming interface for HTML. It defines:
+
+- The HTML elements as objects
+- The properties of all HTML elements
+- The methods to access all HTML elements
+- The events for all HTML elements
+In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+Refer: https://www.w3schools.com/js/js_htmldom_methods.asp
+  
+examples for dom:
+// To manipulate an element inside the DOM, you first need to select it and store a reference to it inside a variable. Inside your script element, add the following line:
+const link = document.querySelector("a");
+  
+// Document.getElementById(), which selects an element with a given id attribute value, e.g. <p id="myId">My paragraph</p>. The ID is passed to the function as a parameter, i.e.
+const elementRef = document.getElementById('myId')
+
+// Document.getElementsByTagName(), which returns an array-like object containing all the elements on the page of a given type, for example <p>s, <a>s, etc. The element type is passed to the function as a parameter, i.e. 
+const elementRefArray = document.getElementsByTagName('p')
+
+//create a new paragraph using Document.createElement() and give it some text content in the same way as before:
+const para = document.createElement("p");
+para.textContent = "We hope you enjoyed the ride.";
+
+//let's add a text node to the paragraph the link sits inside, to round off the sentence nicely. First we will create the text node using Document.createTextNode():
+const text = document.createTextNode(
+  " — the premier source for web development knowledge.",
+);
+
+const ss = document.styleSheets; // The styleSheets property on the document object returns a list of the stylesheets that have been loaded on that document.
+
+  
