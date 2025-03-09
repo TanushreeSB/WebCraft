@@ -27,6 +27,49 @@ he HTML DOM is a standard object model and programming interface for HTML. It de
 - The methods to access all HTML elements
 - The events for all HTML elements
 In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+element.innerHTML =  new html content	Change the inner HTML of an element
+element.attribute = new value	Change the attribute value of an HTML element
+element.style.property = new style	Change the style of an HTML element
+Method	Description
+element.setAttribute(attribute, value)	Change the attribute value of an HTML element
+document.createElement(element)	Create an HTML element
+document.removeChild(element)	Remove an HTML element
+document.appendChild(element)	Add an HTML element
+document.replaceChild(new, old)	Replace an HTML element
+document.write(text)	Write into the HTML output stream
+document.getElementById(id).onclick = function(){code}	Adding event handler code to an onclick event
+
+JavaScript HTML DOM Elements:
+Finding HTML elements by id
+Finding HTML elements by tag name
+Finding HTML elements by class name
+Finding HTML elements by CSS selectors
+Finding HTML elements by HTML object collections
+
+const element = document.getElementsByTagName("p");
+
+const element = document.getElementsByTagName("p");
+
+const x = document.getElementsByClassName("intro");
+
+const x = document.querySelectorAll("p.intro"); // This example returns a list of all <p> elements with class="intro".
+
+---------------------------------------------------------
+DOM selectors NodeLIst and HTML Collection
+
+.innerText ( visible content)
+.textContent ( all content )
+.innerHTML
+
+
+
+
+
+
+
+
+
 Refer: https://www.w3schools.com/js/js_htmldom_methods.asp
   
 examples for dom:
@@ -50,4 +93,23 @@ const text = document.createTextNode(
 
 const ss = document.styleSheets; // The styleSheets property on the document object returns a list of the stylesheets that have been loaded on that document.
 
-  
+templiList[0].style.color = 'green' // it's not array looks like it
+tempList.forEach(function(l){
+  l.style.backgroundColor = 'green'
+})
+
+Array.from(tempClassList) // to covert to array
+
+html collection:
+myConvertedArray.forEach(function(li){
+li.style.color = 'orange'
+})
+
+
+myH2.forEach(function(h){
+    h.style.color = 'black';
+    h.style.backgroundColor = 'green'
+    h.style.padding = '10px'
+    h.innerText = 'Hitesh Sir'
+})
+
