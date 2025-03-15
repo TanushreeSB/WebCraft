@@ -18,8 +18,8 @@ class User {
 
 const chai = new User("chai", "chai@gmail.com", "123")
 
-console.log(chai.encryptPassword());
-console.log(chai.changeUsername());
+console.log(chai.encryptPassword()); // 123abc
+console.log(chai.changeUsername()); // CHAI
 
 // behind the scene
 
@@ -39,5 +39,5 @@ User.prototype.changeUsername = function(){
 
 const tea = new User("tea", "tea@gmail.com", "123")
 
-console.log(tea.encryptPassword());
-console.log(tea.changeUsername());
+console.log(tea.encryptPassword()); //123abc
+console.log(tea.changeUsername()); // TEA
