@@ -2,6 +2,7 @@ function User(email, password){
     this._email = email;
     this._password = password
 
+// Object.defineProperty(this, 'email', {...}) is a JavaScript method used to define a property on an object (in this case, this) with specific configurations.
     Object.defineProperty(this, 'email', {
         get: function(){
             return this._email.toUpperCase()
