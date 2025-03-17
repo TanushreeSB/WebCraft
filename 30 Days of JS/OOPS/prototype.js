@@ -1,7 +1,7 @@
 // let myName = "hitesh     "
 // let mychannel = "chai     "
 
-// console.log(myName.trueLength);
+// console.log(myName.trueLength); 
 
 
 let myHeros = ["thor", "spiderman"]
@@ -17,17 +17,17 @@ let heroPower = {
 }
 
 Object.prototype.hitesh = function(){
-    console.log(`hitesh is present in all objects`);
+    console.log(`hitesh is present in all objects`); //prints , line 27,28
 }
 
 Array.prototype.heyHitesh = function(){
     console.log(`Hitesh says hello`);
 }
 
-// heroPower.hitesh()
+// heroPower.hitesh() 
 // myHeros.hitesh()
-// myHeros.heyHitesh()
-// heroPower.heyHitesh()
+// myHeros.heyHitesh() // here line 24 prints
+// heroPower.heyHitesh() no access
 
 // inheritance
 
@@ -58,10 +58,10 @@ Object.setPrototypeOf(TeachingSupport, Teacher)
 let anotherUsername = "ChaiAurCode     "
 
 String.prototype.trueLength = function(){
-    console.log(`${this}`);
-    console.log(`True length is: ${this.trim().length}`);
+    console.log(`${this}`); // ChaiAurCode
+    console.log(`True length is: ${this.trim().length}`); // 11
 }
 
-anotherUsername.trueLength()
+anotherUsername.trueLength() // 11
 "hitesh".trueLength()
 "iceTea".trueLength()
