@@ -22,6 +22,7 @@ createUser.prototype.printMe = function(){
 }
 
 const chai = new createUser("chai", 25) // new Keyword imp
+// price is 25
 const tea = createUser("tea", 250)
 
 chai.printMe()
