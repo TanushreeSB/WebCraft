@@ -69,3 +69,9 @@
 
 ## 6) Crypto Currency Buying and Selling Website
 ![image](https://github.com/user-attachments/assets/5c56f625-4f4f-411c-88f6-98fe7b648774)
+
+## 7) AI Image Generator
+![image](https://github.com/user-attachments/assets/ece954b0-ff86-4433-ad36-64a5f2e160a7)
+
+
+
