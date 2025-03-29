@@ -66,3 +66,6 @@
 - Objects in JS
 - Getter Setter and Stack Overflow
 - Lexical scoping and Closure 
+
+## 6) Crypto Currency Buying and Selling Website
+![image](https://github.com/user-attachments/assets/5c56f625-4f4f-411c-88f6-98fe7b648774)
